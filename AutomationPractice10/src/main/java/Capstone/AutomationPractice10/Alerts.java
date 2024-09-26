@@ -11,25 +11,25 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class Alerts {
-	public static WebDriver driver;
-
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice10\\Drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.navigate().to("https://www.browserstack.com/users/sign_up");
-		driver.manage().window().maximize();
-		Thread.sleep(6000);
-		WebElement fname = driver.findElement(By.id("new"));
-		fname.sendKeys("riazahmad_8sXi1c");
-		WebElement bemail = driver.findElement(By.id("user_email_login"));
-		bemail.sendKeys("john@gmail.com");
-		WebElement pword = driver.findElement(By.id("user_password"));
-		pword.sendKeys("zVYnWjGN2ccgbp5sNLqr");
-		WebElement subbutton = driver.findElement(By.id("user_submit"));
-		subbutton.click();
-		Thread.sleep(5000);
+//public class Alerts {
+//	public static WebDriver driver;
+//
+//	public static void main(String[] args) throws InterruptedException {
+//		// TODO Auto-generated method stub
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice10\\Drivers\\chromedriver.exe");
+//		driver = new ChromeDriver();
+//		driver.navigate().to("https://www.browserstack.com/users/sign_up");
+//		driver.manage().window().maximize();
+//		Thread.sleep(6000);
+//		WebElement fname = driver.findElement(By.id("new"));
+//		fname.sendKeys("riazahmad_8sXi1c");
+//		WebElement bemail = driver.findElement(By.id("user_email_login"));
+//		bemail.sendKeys("john@gmail.com");
+//		WebElement pword = driver.findElement(By.id("user_password"));
+//		pword.sendKeys("zVYnWjGN2ccgbp5sNLqr");
+//		WebElement subbutton = driver.findElement(By.id("user_submit"));
+//		subbutton.click();
+//		Thread.sleep(5000);
 //		WebElement alerts = driver.findElement(By.id("new"));
 //		alerts.click();
 //		try {
@@ -53,7 +53,7 @@ public class Alerts {
 //		System.out.println(alertMessage); // Print Alert Message
 //		Thread.sleep(5000);
 //		alert.accept();
-		driver.findElement(By.xpath("//a[@class='bs-alert-close']")).click();
+//		driver.findElement(By.xpath("//a[@class='bs-alert-close']")).click();
 //		WebElement aclose = driver.findElement(By.xpath("//a[@class='bs-alert-close']"));
 //		aclose.click();
 		
@@ -61,6 +61,6 @@ public class Alerts {
 		
 		
 
-	}
+	//}
 
-}
+//}
