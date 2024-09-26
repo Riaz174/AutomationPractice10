@@ -38,10 +38,10 @@
 //		Alert alert = driver.switchTo().alert(); 
 		// switch to alert
 
-		String alertMessage= driver.switchTo().alert().getText(); // capture alert message
-
-		}
-}
+//		String alertMessage= driver.switchTo().alert().getText(); // capture alert message
+//
+//		}
+//}
 		
 		
 		
