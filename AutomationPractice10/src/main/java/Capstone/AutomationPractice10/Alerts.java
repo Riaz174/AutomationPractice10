@@ -41,17 +41,20 @@ public class Alerts {
 		alerts.click();
 		Thread.sleep(6000);
 		driver.switchTo().alert().accept();
-		Thread.sleep(30000);
-		WebElement confirmbox = driver.findElement(By.id("confirmButton"));
-		confirmbox.click();
-		Thread.sleep(30000);
-		driver.switchTo().alert().accept();
-		Thread.sleep(20000);
-		WebElement prompt = driver.findElement(By.id("promtButton"));
-		prompt.click();
-		 driver.switchTo().alert().sendKeys("Hello, Copilot!");
-		// Thread.sleep(20000);
-		driver.switchTo().alert().accept();
+		Thread.sleep(6000);
+		driver.quit();
+//		Thread.sleep(30000);
+//		WebElement confirmbox = driver.findElement(By.id("confirmButton"));
+//		confirmbox.click();
+//		Thread.sleep(30000);
+//		driver.switchTo().alert().accept();
+//		Thread.sleep(20000);
+//		WebElement prompt = driver.findElement(By.id("promtButton"));
+//		prompt.click();
+//		 driver.switchTo().alert().sendKeys("Hello, Copilot!");
+//		// Thread.sleep(20000);
+//		driver.switchTo().alert().accept();
+		
 	}
 }
 		
